@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\painting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|solutionrelative:painting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|solutionrelative:FormForArtist1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|solutionrelative:FormForArtist1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|solutionrelative:FormForArtist1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\painting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|solutionrelative:painting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\page1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
@@ -23,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|solutionrelative:painting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|solutionrelative:FormForArtist1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\Art.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3F96E280-CF28-4F4F-ABC3-5F5C0AB9D02D}|mart.vcxproj|solutionrelative:Art.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -38,11 +42,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "FormForArtist1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h",
+              "RelativeDocumentMoniker": "FormForArtist1.h",
+              "ToolTip": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "FormForArtist1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-13T12:08:49.691Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormForArtist1.cpp",
+              "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.cpp",
+              "RelativeDocumentMoniker": "FormForArtist1.cpp",
+              "ToolTip": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.cpp",
+              "RelativeToolTip": "FormForArtist1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-13T12:08:43.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Art.xml",
               "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\Art.xml",
               "RelativeDocumentMoniker": "Art.xml",
@@ -54,20 +83,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "FormForArtist1.h",
               "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h",
               "RelativeDocumentMoniker": "FormForArtist1.h",
-              "ToolTip": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h",
-              "RelativeToolTip": "FormForArtist1.h",
-              "ViewState": "AQIAAMUAAAAAAAAAAAAIwNsAAAAAAAAA",
+              "ToolTip": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h*",
+              "RelativeToolTip": "FormForArtist1.h*",
+              "ViewState": "AQIAAEUAAAAAAAAAAAApwOIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-11T21:30:39.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "painting.h",
               "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\painting.h",
               "RelativeDocumentMoniker": "painting.h",
@@ -80,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "page1.h",
               "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\page1.h",
               "RelativeDocumentMoniker": "page1.h",
@@ -88,36 +117,22 @@
               "RelativeToolTip": "page1.h",
               "ViewState": "AQIAAB0AAAAAAAAAAAApwDUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-11T21:30:39.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T21:30:39.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "page1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\page1.h",
               "RelativeDocumentMoniker": "page1.h",
               "ToolTip": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\page1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "page1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-11T21:30:39.732Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-05-11T21:30:39.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormForArtist1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h",
-              "RelativeDocumentMoniker": "FormForArtist1.h",
-              "ToolTip": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\FormForArtist1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "FormForArtist1.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-12T21:25:47.186Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "painting.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\Arina\\source\\repos\\nymph-s-coursework-master\\painting.h",
               "RelativeDocumentMoniker": "painting.h",

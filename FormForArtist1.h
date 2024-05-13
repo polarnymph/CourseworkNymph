@@ -40,6 +40,7 @@ namespace mart {
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Label^ label3;
+	private: System::Windows::Forms::FlowLayoutPanel^ flowLayoutPanel1;
 	private: String^ TypeOfArtist;
 	protected:
 		/// <summary>
@@ -75,8 +76,10 @@ namespace mart {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->flowLayoutPanel1 = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
+			this->flowLayoutPanel1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// NameLabel
@@ -85,7 +88,7 @@ namespace mart {
 			this->NameLabel->BackColor = System::Drawing::Color::White;
 			this->NameLabel->Font = (gcnew System::Drawing::Font(L"Unbounded", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->NameLabel->Location = System::Drawing::Point(60, 126);
+			this->NameLabel->Location = System::Drawing::Point(4, 0);
 			this->NameLabel->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->NameLabel->Name = L"NameLabel";
 			this->NameLabel->Size = System::Drawing::Size(247, 51);
@@ -97,7 +100,7 @@ namespace mart {
 			this->DiscriptionLabel->AutoSize = true;
 			this->DiscriptionLabel->Font = (gcnew System::Drawing::Font(L"Unbounded Light", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->DiscriptionLabel->Location = System::Drawing::Point(63, 190);
+			this->DiscriptionLabel->Location = System::Drawing::Point(259, 0);
 			this->DiscriptionLabel->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->DiscriptionLabel->MaximumSize = System::Drawing::Size(984, 252);
 			this->DiscriptionLabel->Name = L"DiscriptionLabel";
@@ -108,13 +111,12 @@ namespace mart {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(69, 398);
+			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->pictureBox1->Location = System::Drawing::Point(468, 20);
 			this->pictureBox1->Margin = System::Windows::Forms::Padding(4);
-			this->pictureBox1->MaximumSize = System::Drawing::Size(984, 252);
-			this->pictureBox1->MinimumSize = System::Drawing::Size(984, 252);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(984, 252);
-			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox1->Size = System::Drawing::Size(10, 10);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox1->TabIndex = 2;
 			this->pictureBox1->TabStop = false;
 			// 
@@ -180,19 +182,28 @@ namespace mart {
 			this->label3->TabIndex = 7;
 			this->label3->Text = L"ÈÑÊÓÑÑÒÂÀ";
 			// 
+			// flowLayoutPanel1
+			// 
+			this->flowLayoutPanel1->AutoScroll = true;
+			this->flowLayoutPanel1->Controls->Add(this->NameLabel);
+			this->flowLayoutPanel1->Controls->Add(this->DiscriptionLabel);
+			this->flowLayoutPanel1->Controls->Add(this->pictureBox1);
+			this->flowLayoutPanel1->Location = System::Drawing::Point(40, 118);
+			this->flowLayoutPanel1->Name = L"flowLayoutPanel1";
+			this->flowLayoutPanel1->Size = System::Drawing::Size(1023, 543);
+			this->flowLayoutPanel1->TabIndex = 8;
+			// 
 			// FormForArtist1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::White;
 			this->ClientSize = System::Drawing::Size(1262, 673);
+			this->Controls->Add(this->flowLayoutPanel1);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->button1);
-			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->DiscriptionLabel);
-			this->Controls->Add(this->NameLabel);
 			this->Controls->Add(this->pictureBox2);
 			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"FormForArtist1";
@@ -200,6 +211,8 @@ namespace mart {
 			this->Load += gcnew System::EventHandler(this, &FormForArtist1::FormForArtist1_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
+			this->flowLayoutPanel1->ResumeLayout(false);
+			this->flowLayoutPanel1->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
