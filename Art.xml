@@ -44,5 +44,5 @@
 	</Artist>
 	<Photographe Имя="123">1234</Photographe>
 	<Sculptor Имя="gfnhvbc">asdfgsdhjckmbvn</Sculptor>
-	<Street Имя="ioppo">asdgf</Street>
+	<Street Имя="Симонов Иван" pic="Стрит-арт//Симонов.jpg">asdgf</Street>
 </Art>

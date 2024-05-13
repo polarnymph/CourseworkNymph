@@ -72,7 +72,8 @@ String^ GetImageByAttribute(String^ nodeName, String^ attributeValue, String^ Pa
     XmlAttributeCollection^ attributes = doc->SelectSingleNode(path)->Attributes;
     for each (XmlAttribute ^ attribute in attributes) {
         if (attribute->Name->ToString() == "pic") {
-            return attribute->Value;
+            String^ a = attribute->Value;
+            return a;
         }
     }  
 }

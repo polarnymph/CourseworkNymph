@@ -199,6 +199,7 @@ namespace mart {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::White;
 			this->ClientSize = System::Drawing::Size(1262, 673);
+			this->ControlBox = false;
 			this->Controls->Add(this->flowLayoutPanel1);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
@@ -207,7 +208,7 @@ namespace mart {
 			this->Controls->Add(this->pictureBox2);
 			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"FormForArtist1";
-			this->Text = L"FormForArtist1";
+			this->Text = L"Информация о деятеле искусства";
 			this->Load += gcnew System::EventHandler(this, &FormForArtist1::FormForArtist1_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
@@ -219,10 +220,12 @@ namespace mart {
 		}
 #pragma endregion
 	private: System::Void FormForArtist1_Load(System::Object^ sender, System::EventArgs^ e) {
+		//this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 		DiscriptionLabel->Text = GetDiscriptionByAttribute(TypeOfArtist, NameOfArtist, Path + "\\Art.xml");
 		NameLabel->Text = NameOfArtist;
 
-		pictureBox1->Image = Image::FromFile(GetImageByAttribute(TypeOfArtist, NameOfArtist, Path + "\\Art.xml"));
+		String^ a = GetImageByAttribute(TypeOfArtist, NameOfArtist, Path + "\\Art.xml");
+		pictureBox1->Image = Image::FromFile(Path + "\\" + a);
 	}
 	private: System::Void DiscriptionLabel_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
